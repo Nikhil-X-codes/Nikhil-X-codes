@@ -1,4 +1,4 @@
-<h1 align="center">Hi Fok's<img  src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> I'm <a  href="https://www.linkedin.com/in/tushar-gupta-546790296/">Nikhil Nagar</a></h1>
+<h1 align="center">Hi folks<img  src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> I'm <a  href="https://www.linkedin.com/in/tushar-gupta-546790296/">Nikhil Nagar</a></h1>
 <h3 align="center">🚀 Student | 💻 Littlebit Exploring Blockchain and AI/ML | 🛠️ currently working on MERN stack projects</h3>
 
 <p align="center">
