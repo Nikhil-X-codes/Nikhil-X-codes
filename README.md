@@ -1,5 +1,6 @@
-<h1 align="center">Hi folks<img  src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> I'm <a  href="https://www.linkedin.com/in/tushar-gupta-546790296/">Nikhil Nagar</a></h1>
-<h3 align="center">🚀 Student | 💻 Littlebit Exploring AI/ML Domain | 🛠️ working on MERN stack projects</h3>
+
+<h1 align="center">Hi Fok's<img  src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> I'm <a  href="https://www.linkedin.com/in/nikhil2310/">Nikhil Nagar</a></h1>
+<h3 align="center">🚀 Student | 💻 Littlebit Exploring Blockchain and AI/ML | 🛠️ currently working on MERN stack projects</h3>
 
 <p align="center">
 <img src="https://media1.giphy.com/media/v1.Y2lkPTc9MGI3NjExaDljZ24yaHhsaDN1Ymc2eXUxYmRpaHJoMmJ2czQxMHBic3l0eXcxMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zpL3kAH0f1Cxcl0TMH/giphy.gif" alt="GIF"/>
@@ -18,7 +19,7 @@
 
 <p align="center">
  <img 
-  src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,nodejs,express,mongodb,mysql,cpp,c,java,git,github" 
+  src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,nodejs,express,mongodb,mysql,cpp,c,java,python,git,github" 
   alt="Tech Stack"
 />
 </p>
