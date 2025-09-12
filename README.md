@@ -1,3 +1,4 @@
+
 <h1 align="center">Hi Fok's<img  src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> I'm <a  href="https://www.linkedin.com/in/nikhil2310/">Nikhil Nagar</a></h1>
 <h3 align="center">🚀 Student | 💻 Littlebit Exploring Blockchain and AI/ML | 🛠️ currently working on MERN stack projects</h3>
 
@@ -18,7 +19,7 @@
 
 <p align="center">
  <img 
-  src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,nodejs,express,mongodb,mysql,cpp,c,java,git,github" 
+  src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,nodejs,express,mongodb,mysql,cpp,c,java,python,git,github" 
   alt="Tech Stack"
 />
 </p>
