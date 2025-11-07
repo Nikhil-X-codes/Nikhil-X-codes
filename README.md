@@ -1,50 +1,45 @@
+<h1 align="center">Hi Folks! <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> I'm <a href="https://www.linkedin.com/in/nikhil2310/">Nikhil Nagar</a></h1>
 
-<h1 align="center">Hi Fok's<img  src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> I'm <a  href="https://www.linkedin.com/in/nikhil2310/">Nikhil Nagar</a></h1>
-<h3 align="center">🚀 Student | 💻 Littlebit Exploring Blockchain and AI/ML | 🛠️ currently working on MERN stack projects</h3>
+<h3 align="center">🚀 Student | Exploring ML & DL | Building AI-Powered Web Applications | DSA 🔁</h3>
 
 <p align="center">
-<img src="https://media1.giphy.com/media/v1.Y2lkPTc9MGI3NjExaDljZ24yaHhsaDN1Ymc2eXUxYmRpaHJoMmJ2czQxMHBic3l0eXcxMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zpL3kAH0f1Cxcl0TMH/giphy.gif" alt="GIF"/>
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc9MGI3NjExaDljZ24yaHhsaDN1Ymc2eXUxYmRpaHJoMmJ2czQxMHBic3l0eXcxMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zpL3kAH0f1Cxcl0TMH/giphy.gif" alt="AI Developer GIF" width="600"/>
 </p>
 
 ---
 
-- 🎓 I'm currently pursuing my B.Tech at **Indian Institute of Information Technology, Sonepat**  
-- 💡 Passionate about **Web Development** and **Sports** and **DSA**
-- 🌱 Currently expanding my knowledge in **Backend Development** and **Trading**
-- ⚡ Fun fact: I am more Darker than that you think about me!
+### 👨‍🎓 About Me  
+
+- 🎓 Pursuing **B.Tech** at *Indian Institute of Information Technology, Sonepat*  
+- 💡 Passionate about **Web Development**, **DSA** , **Machine/Deep Learning**
+- 🌱 Currently learning **Machine/Deep Learning** and exploring **Myself**  
+- ⚡ Fun fact: Lifting Myself from zero to infinity
 
 ---
 
 <h3 align="center">🛠️ My Tech Stack</h3>
 
 <p align="center">
- <img 
-  src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,nodejs,express,mongodb,mysql,cpp,c,java,python,git,github" 
-  alt="Tech Stack"
-/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,nodejs,express,mongodb,mysql,cpp,c,java,python,git,github&perline=8" alt="Tech Stack" />
 </p>
 
 ---
 
-<h3 align="center">🔗 Let's Connect on </h3>
+<h3 align="center">🔗 Connect With Me</h3>
 
 <p align="center">
-  
-  <a href="https://www.linkedin.com/in/nikhil-nagar-7a527928b/" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.linkedin.com/in/nikhil2310" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
- <a href="https://www.instagram.com/nik_ngr05/" target="_blank" rel="noopener noreferrer">
- <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-</a>
-
-<a href="mailto:nagarn2005@gmail.com" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-
-<a href="https://x.com/NIKHILNAGA8208" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=X&logoColor=white" alt="Twitter"/>
-</a>
-
+  <a href="https://www.instagram.com/nik_ngr05/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="mailto:nagarn2005@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://x.com/NIKHILNAGA8208" target="_blank">
+    <img src="https://img.shields.io/badge/X%20(Twitter)-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter"/>
+  </a>
 </p>
 
 ---
@@ -52,18 +47,21 @@
 <h3 align="center">📊 GitHub Stats</h3>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-X-codes&show_icons=true&theme=radical" alt="Nikhil's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-X-codes&show_icons=true&theme=radical" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikhil-X-codes&theme=tokyonight" alt="Nikhil's GitHub streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Nikhil-X-codes&theme=tokyonight" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-X-codes&layout=compact&theme=radical" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-X-codes&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
 ---
 
+<h3 align="center">✨ Thank You for Visiting My Profile!</h3>
 
-<p align="center">Thank you for visiting my profile!🚀</p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Nikhil-X-codes&label=Profile%20Views&color=blueviolet&style=flat-square" alt="Profile views"/>
+</p>
