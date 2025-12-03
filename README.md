@@ -11,16 +11,14 @@
 ### 👨‍🎓 About Me  
 
 - 🎓 Pursuing **B.Tech** at *Indian Institute of Information Technology, Sonepat*  
-- 💡 Passionate about **Web Development**, **DSA** , **Machine/Deep Learning**
+- 💡 Passionate about **Web Development**, **DSA** , **Machine and Deep Learning**
 - 🌱 Currently learning **Machine/Deep Learning** and exploring **Myself**  
-- ⚡ Fun fact: Lifting Myself from zero to infinity
-
 ---
 
 <h3 align="center">🛠️ My Tech Stack</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,nodejs,express,mongodb,mysql,cpp,c,java,python,git,github&perline=8" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,nodejs,express,mongodb,mysql,postgresql,vercel,netlify,cpp,c,python,git,github&perline=8" alt="Tech Stack" />
 </p>
 
 ---
@@ -37,9 +35,6 @@
   <a href="mailto:nagarn2005@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://x.com/NIKHILNAGA8208" target="_blank">
-    <img src="https://img.shields.io/badge/X%20(Twitter)-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter"/>
-  </a>
 </p>
 
 ---
@@ -51,7 +46,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Nikhil-X-codes&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Nikhil-X-codes&theme=tokyonight,render" alt="GitHub Streak" />
 </p>
 
 <p align="center">
