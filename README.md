@@ -29,7 +29,7 @@
   <a href="https://www.linkedin.com/in/nikhil2310" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://www.instagram.com/nik_ngr05/" target="_blank">
+  <a href="https://www.instagram.com/nik_ngr05" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
   <a href="mailto:nagarn2005@gmail.com" target="_blank">
@@ -41,17 +41,9 @@
 
 <h3 align="center">📊 GitHub Stats</h3>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nikhil-X-codes&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Nikhil-X-codes&theme=tokyonight,render" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-X-codes&layout=compact&theme=radical" alt="Top Languages" />
-</p>
+![](https://github-readme-stats.vercel.app/api?username=Nikhil-X-codes&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=Nikhil-X-codes&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhil-X-codes&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ---
 
