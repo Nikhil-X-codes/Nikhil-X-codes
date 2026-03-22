@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:001a3a,70:003366,100:00F0FF&height=250&section=header&text=Nikhil%20Nagar&fontSize=72&fontColor=00F0FF&fontAlignY=38&fontAlign=50&desc=🚀%20Student%20•%20AI%2FML%20Engineer%20•%20Full%20Stack%20Dev%20•%20IIIT%20Sonepat&descColor=70A4FF&descAlignY=60&descAlign=50&animation=twinkling&stroke=00F0FF&strokeWidth=2" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:001a3a,70:003366,100:00F0FF&height=250&section=header&text=Nikhil%20Nagar&fontSize=72&fontColor=00F0FF&fontAlignY=38&fontAlign=50&desc=🚀%20Student%20•%20AI%2FML%20Learner%20•%20Full%20Stack%20Dev%20•%20IIIT%20Sonepat&descColor=70A4FF&descAlignY=60&descAlign=50&animation=twinkling&stroke=00F0FF&strokeWidth=2" width="100%" />
 
 </div>
 
@@ -46,23 +46,21 @@
 
 ## 👾 About Me
 
-<img align="right" width="32%" src="https://media1.giphy.com/media/v1.Y2lkPTc9MGI3NjExaDljZ24yaHhsaDN1Ymc2eXUxYmRpaHJoMmJ2czQxMHBic3l0eXcxMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zpL3kAH0f1Cxcl0TMH/giphy.gif" alt="Coding GIF"/>
-
-```
+```json
 {
-  "name"       : "Nikhil Nagar",
-  "college"    : "IIIT Sonepat 🎓",
-  "degree"     : "B.Tech (CSE)",
-  "passion"    : ["AI/ML", "Web Dev"],
-  "dsa_grind"  : true,
-  "status"     : "Keep Learning and Building",
+  "name": "Nikhil Nagar",
+  "college": "IIIT Sonepat",
+  "degree": "B.Tech (CSE)",
+  "focus": ["AI/ML", "Full Stack"],
+  "dsa_grind": true,
+  "status": "Keep Learning & Building"
 }
 ```
 
-- 🧠 Deeply passionate about **Machine Learning & Deep Learning**
-- 💻 Building **AI-powered full-stack applications**
-- 📊 Consistently grinding **Data Structures & Algorithms**
-- 🌱 Always eager to learn new tech and **ship things fast**
+🧠 &nbsp;Deeply passionate about **Machine Learning & Deep Learning**  
+💻 &nbsp;Building **AI-powered full-stack applications**  
+📊 &nbsp;Consistently grinding **Data Structures & Algorithms**  
+🌱 &nbsp;Always eager to learn new tech and **ship things fast**  
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:002244,100:0d1117&height=3" width="100%"/>
 
@@ -153,8 +151,6 @@
   </picture>
 </div>
 
-> **Note:** To enable the snake animation, add [this GitHub Action](https://github.com/Platane/snk) to your profile repo.
-
 ---
 
 ## 🏆 Coding Profiles
@@ -170,16 +166,6 @@
 <a href="https://www.codechef.com/users/nik_ngr007">
   <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" height="40"/>
 </a>
-
-</div>
-
-## 💡 Dev Quote of the Day
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&border=true" width="80%"/>
-</div>
-
-<div align="center">
 
 </div>
 
