@@ -5,6 +5,9 @@ on:
     - cron: "0 6 * * *"   # Every day at 6 AM UTC
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-quote:
     runs-on: ubuntu-latest
