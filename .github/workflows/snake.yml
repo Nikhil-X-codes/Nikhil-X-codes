@@ -5,10 +5,16 @@ on:
     - cron: "0 0 * * *"   # Runs daily at midnight UTC
   workflow_dispatch:        # Allows manual trigger
 
+permissions:
+  contents: write
+  pages: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+
       - uses: Platane/snk@v3
         with:
           github_user_name: Nikhil-X-codes
@@ -16,9 +22,12 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
+      - name: Push to output branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/
+          git commit -m "chore: generate snake animation" || true
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:output --force || true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
