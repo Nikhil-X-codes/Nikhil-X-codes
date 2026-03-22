@@ -35,6 +35,13 @@
 
 <br/>
 
+## 💡 Dev Quote of the Day
+<div align="center">
+  <img src="https://img.shields.io/badge/Quote-Loading...-blue?style=for-the-badge&labelColor=0d1117" />
+</div>
+
+<br/>
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:00F0FF,100:0d1117&height=3&animation=fadeIn" width="100%"/>
 
 ## 👾 About Me
