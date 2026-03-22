@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-Loading...-blue?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Quote-Excellence%20is%20not%20an%20exception%2C%20it%20is%20a%20prevailing%20attitude.%20%E2%80%94%20Colin%20Powell-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
