@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-You%20are%20now%2C%20and%20you%20do%20become%2C%20what%20you%20think%20about.%20%E2%80%94%20Earl%20Nightingale-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-It%27s%20easier%20to%20lose%20than%20to%20win.%20%20%20%E2%80%94%20Wayne%20Gretzky-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
