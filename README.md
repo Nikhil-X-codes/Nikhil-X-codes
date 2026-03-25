@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-It%27s%20easier%20to%20lose%20than%20to%20win.%20%20%20%E2%80%94%20Wayne%20Gretzky-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-Everything%20you%27ve%20ever%20wanted%20is%20on%20the%20other%20side%20of%20fear.%20%E2%80%94%20Brian%20Tracy-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
