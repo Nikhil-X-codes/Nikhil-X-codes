@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-Write%20to%20help%20yourself%2C%20publish%20to%20help%20others.%20%E2%80%94%20Jack%20Butcher-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-Confidence%20is%20what%20you%20have%20before%20you%20understand%20the%20problem.%20%E2%80%94%20Woody%20Allen-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
