@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-Confidence%20is%20what%20you%20have%20before%20you%20understand%20the%20problem.%20%E2%80%94%20Woody%20Allen-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-Intense%20love%20does%20not%20measure%2C%20it%20just%20gives.%20%E2%80%94%20Mother%20Teresa-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
