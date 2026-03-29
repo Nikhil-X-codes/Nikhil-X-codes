@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-Intense%20love%20does%20not%20measure%2C%20it%20just%20gives.%20%E2%80%94%20Mother%20Teresa-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-Spend%20eighty%20percent%20of%20your%20time%20focusing%20on%20the%20opportunities%20of%20tomorrow%20rather%20than%20the%20problems%20of%20yesterday.%20%E2%80%94%20Brian%20Tracy-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
