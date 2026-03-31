@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-Success%20is%20about%20creating%20value.%20%E2%80%94%20Candice%20Carpenter-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-I%20thought%20how%20unpleasant%20it%20is%20to%20be%20locked%20out%3B%20and%20I%20thought%20how%20it%20is%20worse%2C%20perhaps%2C%20to%20be%20locked%20in.%20%E2%80%94%20Virginia%20Woolf-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
