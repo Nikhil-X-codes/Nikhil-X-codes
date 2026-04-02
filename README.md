@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-It%27s%20not%20the%20men%20in%20your%20life%20that%20matters%2C%20it%27s%20the%20life%20in%20your%20men.%20%E2%80%94%20Mae%20West-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-If%20I%20can%20laugh%2C%20I%20can%20live.%20%E2%80%94%20Christopher%20Reeve-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
