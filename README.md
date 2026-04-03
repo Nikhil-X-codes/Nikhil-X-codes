@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-If%20I%20can%20laugh%2C%20I%20can%20live.%20%E2%80%94%20Christopher%20Reeve-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-Ideas%20do%20not%20reach%20perfection%20in%20a%20day%2C%20no%20matter%20how%20much%20study%20is%20put%20upon%20them.%20%E2%80%94%20Alexander%20Graham%20Bell-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
