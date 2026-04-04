@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-Ideas%20do%20not%20reach%20perfection%20in%20a%20day%2C%20no%20matter%20how%20much%20study%20is%20put%20upon%20them.%20%E2%80%94%20Alexander%20Graham%20Bell-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-Everybody%20needs%20a%20passion.%20That%27s%20what%20keeps%20life%20interesting.%20%E2%80%94%20Betty%20White-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
