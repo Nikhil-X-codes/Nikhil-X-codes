@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-Everybody%20needs%20a%20passion.%20That%27s%20what%20keeps%20life%20interesting.%20%E2%80%94%20Betty%20White-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-If%20you%20are%20going%20to%20achieve%20excellence%20in%20big%20things%2C%20you%20develop%20the%20habit%20in%20little%20matters.%20%E2%80%94%20Colin%20Powell-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
