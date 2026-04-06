@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-If%20you%20are%20going%20to%20achieve%20excellence%20in%20big%20things%2C%20you%20develop%20the%20habit%20in%20little%20matters.%20%E2%80%94%20Colin%20Powell-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-Don%27t%20wish%20it%20were%20easier%2C%20wish%20you%20were%20better.%20%E2%80%94%20Jim%20Rohn-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
