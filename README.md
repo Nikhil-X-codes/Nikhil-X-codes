@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-Don%27t%20wish%20it%20were%20easier%2C%20wish%20you%20were%20better.%20%E2%80%94%20Jim%20Rohn-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-Your%20gift%20is%20something%20that%20you%20can%20do%20innately%20better%20than%20anything%20else.%20%E2%80%94%20Steve%20Harvey-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
