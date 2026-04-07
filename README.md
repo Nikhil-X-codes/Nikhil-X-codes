@@ -80,10 +80,8 @@
 ### 🤖 AI / ML Stack
 <br/>
 <a href="https://scikit-learn.org/"><img src="https://skillicons.dev/icons?i=sklearn" height="50" title="Scikit-Learn"/></a>&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" height="35"/>&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" height="35"/>&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" height="35"/>&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Seaborn-4c72b0?style=for-the-badge&logo=python&logoColor=white" height="35"/>
+<a href="https://pandas.pydata.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" height="40" title="Pandas"/></a>&nbsp;
+<a href="https://numpy.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" height="40" title="NumPy"/></a>&nbsp;
 
 <br/><br/>
 
