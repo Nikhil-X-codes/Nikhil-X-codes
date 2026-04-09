@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-It%27s%20OK%20to%20have%20your%20eggs%20in%20one%20basket%20as%20long%20as%20you%20control%20what%20happens%20to%20that%20basket.%20%E2%80%94%20Elon%20Musk-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-The%20greatest%20treasures%20are%20those%20invisible%20to%20the%20eye%20but%20found%20by%20the%20heart.%20%E2%80%94%20Judy%20Garland-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
