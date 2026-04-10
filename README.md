@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-The%20greatest%20treasures%20are%20those%20invisible%20to%20the%20eye%20but%20found%20by%20the%20heart.%20%E2%80%94%20Judy%20Garland-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-He%20who%20wishes%20to%20be%20obeyed%20must%20know%20how%20to%20command.%20%E2%80%94%20Niccolo%20Machiavelli-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
