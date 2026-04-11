@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-He%20who%20wishes%20to%20be%20obeyed%20must%20know%20how%20to%20command.%20%E2%80%94%20Niccolo%20Machiavelli-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-I%20can%20live%20without%20money%2C%20but%20I%20cannot%20live%20without%20love.%20%E2%80%94%20Judy%20Garland-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
