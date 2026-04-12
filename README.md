@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-I%20can%20live%20without%20money%2C%20but%20I%20cannot%20live%20without%20love.%20%E2%80%94%20Judy%20Garland-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-Enjoy%20life.%20There%27s%20plenty%20of%20time%20to%20be%20dead.%20%E2%80%94%20Hans%20Christian%20Andersen-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
