@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 820 196" width="820" height="196">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0a1f3a"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#7B61FF"/>
+    </linearGradient>
+    <linearGradient id="aline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#7B61FF"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .qt  { font-family:"JetBrains Mono","Courier New",monospace; font-weight:500; }
+      .sans{ font-family:system-ui,sans-serif; }
+      .mono{ font-family:"JetBrains Mono","Courier New",monospace; }
+
+      @keyframes fi    { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+      @keyframes fi2   { from{opacity:0} to{opacity:1} }
+      @keyframes pulse { 0%,100%{opacity:.65} 50%{opacity:1} }
+      @keyframes shim  {
+        0%   { transform:translateX(-100%); }
+        100% { transform:translateX(200%); }
+      }
+
+      .r0  { opacity:0; animation:fi  .55s ease  .2s both; }
+      .r1  { opacity:0; animation:fi  .55s ease  .5s both; }
+      .r2  { opacity:0; animation:fi  .55s ease  .9s both; }
+      .r3  { opacity:0; animation:fi2 .7s  ease 1.4s both; }
+      .r4  { opacity:0; animation:fi2 .7s  ease 1.9s both; }
+      .bar { animation:pulse 3s ease-in-out infinite; }
+
+      .shim-wrap { overflow:hidden; }
+      .shim {
+        animation:shim 3.5s ease-in-out 0.5s infinite;
+        fill:url(#shimgrad);
+      }
+    </style>
+    <linearGradient id="shimgrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card-clip">
+      <rect width="820" height="196" rx="10" ry="10"/>
+    </clipPath>
+  </defs>
+
+  <!-- background -->
+  <rect width="820" height="196" rx="10" ry="10"
+        fill="url(#bg)" stroke="#21262d" stroke-width="1.5"/>
+
+  <!-- shimmer (clipped to card) -->
+  <g clip-path="url(#card-clip)">
+    <rect class="shim" x="0" y="0" width="60%" height="196" opacity="1"/>
+  </g>
+
+  <!-- left accent bar (pulsing) -->
+  <rect class="bar" x="0" y="0" width="5" height="196"
+        rx="2.5" ry="2.5" fill="url(#bar)"/>
+
+  <!-- opening large quote mark -->
+  <text class="r0 sans" x="30" y="46"
+        fill="#00F0FF" font-size="68" font-weight="900"
+        opacity="0.16" filter="url(#glow)">"</text>
+
+  <!-- quote text lines (each fades in) -->
+  <g class="r1">
+  <text class="qt" x="32" y="62" fill="#e6edf3" font-size="16">A mistake is only an error, it becomes a mistake when you fail to</text>
+  <text class="qt" x="32" y="88" fill="#e6edf3" font-size="16">correct it.</text>
+  </g>
+
+  <!-- divider line + attribution -->
+  <g class="r2">
+    <line x1="32" y1="128" x2="130" y2="128"
+          stroke="url(#aline)" stroke-width="1.5"/>
+    <text class="sans" x="140" y="134"
+          fill="#70A4FF" font-size="14" font-weight="600">
+      &#x2014;&#x2002;John Lennon
+    </text>
+  </g>
+
+  <!-- closing quote mark -->
+  <text class="r3 sans" x="762" y="178"
+        fill="#7B61FF" font-size="68" font-weight="900"
+        opacity="0.12" filter="url(#glow)">"</text>
+
+  <!-- tag pill -->
+  <g class="r4">
+    <rect x="32" y="160" width="148" height="24"
+          rx="5" ry="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="48" cy="172" r="4"
+            fill="#00F0FF" opacity="0.8"/>
+    <text class="mono" x="58" y="175"
+          fill="#00F0FF" font-size="11.5" font-weight="700">
+      Dev Quote of the Day
+    </text>
+  </g>
+</svg>
