@@ -37,7 +37,7 @@
 
 ## 💡 Dev Quote of the Day
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-Enjoy%20life.%20There%27s%20plenty%20of%20time%20to%20be%20dead.%20%E2%80%94%20Hans%20Christian%20Andersen-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="https://img.shields.io/badge/Quote-A%20mistake%20is%20only%20an%20error%2C%20it%20becomes%20a%20mistake%20when%20you%20fail%20to%20correct%20it.%20%E2%80%94%20John%20Lennon-blue?style=for-the-badge&labelColor=0d1117"
 </div>
 
 <br/>
