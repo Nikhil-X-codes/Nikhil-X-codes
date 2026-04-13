@@ -36,8 +36,9 @@
 <br/>
 
 ## 💡 Dev Quote of the Day
+
 <div align="center">
-  <img src="https://img.shields.io/badge/Quote-A%20mistake%20is%20only%20an%20error%2C%20it%20becomes%20a%20mistake%20when%20you%20fail%20to%20correct%20it.%20%E2%80%94%20John%20Lennon-blue?style=for-the-badge&labelColor=0d1117"
+  <img src="./assets/quote-card.svg" width="100%" alt="Dev Quote of the Day" />
 </div>
 
 <br/>
@@ -67,51 +68,7 @@
 ## 🛠️ Tech Arsenal
 
 <div align="center">
-
-### 💻 Languages & Problem Solving
-<br/>
-<a href="https://isocpp.org/"><img src="https://skillicons.dev/icons?i=cpp" height="50" title="C++"/></a>&nbsp;&nbsp;
-<a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://skillicons.dev/icons?i=c" height="50" title="C"/></a>&nbsp;&nbsp;
-<a href="https://docs.python.org/3/"><img src="https://skillicons.dev/icons?i=python" height="50" title="Python"/></a>&nbsp;&nbsp;
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" height="50" title="JavaScript"/></a>
-
-<br/><br/>
-
-### 🤖 AI / ML Stack
-<br/>
-<a href="https://scikit-learn.org/"><img src="https://skillicons.dev/icons?i=sklearn" height="50" title="Scikit-Learn"/></a>&nbsp;&nbsp;
-<a href="https://pandas.pydata.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" height="40" title="Pandas"/></a>&nbsp;
-<a href="https://numpy.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" height="40" title="NumPy"/></a>&nbsp;
-
-<br/><br/>
-
-### 🎨 Frontend Development
-<br/>
-<a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" height="50" title="React"/></a>&nbsp;&nbsp;
-<a href="https://tailwindcss.com/"><img src="https://skillicons.dev/icons?i=tailwind" height="50" title="Tailwind CSS"/></a>&nbsp;&nbsp;
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" height="50" title="HTML5"/></a>&nbsp;&nbsp;
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" height="50" title="CSS3"/></a>&nbsp;&nbsp;
-<a href="https://nextjs.org/"><img src="https://skillicons.dev/icons?i=nextjs" height="50" title="Next.js"/></a>
-
-<br/><br/>
-
-### ⚙️ Backend & Databases
-<br/>
-<a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" height="50" title="Node.js"/></a>&nbsp;&nbsp;
-<a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" height="50" title="Express.js"/></a>&nbsp;&nbsp;
-<a href="https://www.mongodb.com/"><img src="https://skillicons.dev/icons?i=mongodb" height="50" title="MongoDB"/></a>&nbsp;&nbsp;
-<a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgresql" height="50" title="PostgreSQL"/></a>&nbsp;&nbsp;
-<a href="https://dev.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" height="50" title="MySQL"/></a>
-
-<br/><br/>
-
-### 🔧 Tools
-<br/>
-<a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" height="50" title="Git"/></a>&nbsp;&nbsp;
-<a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" height="50" title="GitHub"/></a>&nbsp;&nbsp;
-<a href="https://www.postman.com/"><img src="https://skillicons.dev/icons?i=postman" height="50" title="Postman"/></a>&nbsp;&nbsp;
-<a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" height="50" title="VS Code"/></a>
-
+  <img src="./assets/tech-stack.svg" width="100%" alt="Tech Arsenal" />
 </div>
 
 
@@ -139,14 +96,16 @@
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Name Snake
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nikhil-X-codes/Nikhil-X-codes/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nikhil-X-codes/Nikhil-X-codes/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Nikhil-X-codes/Nikhil-X-codes/output/github-snake-dark.svg" />
-  </picture>
+  <img src="./assets/name-snake.svg" width="100%" alt="NIKHIL Pac-Man animation" />
+</div>
+
+---
+
+<div align="center">
+  <img src="./assets/mac-terminal.svg" width="100%" alt="Mac Terminal" />
 </div>
 
 ---

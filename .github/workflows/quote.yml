@@ -3,7 +3,7 @@ name: Update Dev Quote
 on:
   schedule:
     - cron: "0 6 * * *"   # Every day at 6 AM UTC
-  workflow_dispatch:
+  workflow_dispatch:       # allow manual trigger from GitHub UI
 
 permissions:
   contents: write
@@ -11,29 +11,26 @@ permissions:
 jobs:
   update-quote:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Fetch Quote & Update README
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate today's quote card SVG
+        run: python generate_quote_card.py
+
+      - name: Commit & push updated SVG
         run: |
-          QUOTE=$(curl -s "https://zenquotes.io/api/today" | python3 -c "
-          import sys, json
-          data = json.load(sys.stdin)[0]
-          print(data['q'] + ' — ' + data['a'])
-          ")
-          echo "Today's quote: $QUOTE"
-
-          # URL-encode for badge
-          ENCODED=$(python3 -c "import urllib.parse; print(urllib.parse.quote('''$QUOTE'''))")
-
-          # Replace the quote badge line in README
-          sed -i "s|https://img.shields.io/badge/Quote-.*|https://img.shields.io/badge/Quote-${ENCODED}-blue?style=for-the-badge\&labelColor=0d1117\"|" README.md
-
-      - name: Commit updated README
-        run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --cached --quiet || (git commit -m "chore: update daily dev quote" && git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }})
+          git add assets/quote-card.svg
+          git diff --cached --quiet && echo "No changes." || \
+            git commit -m "chore: update daily dev quote [skip ci]" && \
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
