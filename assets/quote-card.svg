@@ -73,8 +73,8 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="32" y="62" fill="#e6edf3" font-size="16">A mistake is only an error, it becomes a mistake when you fail to</text>
-  <text class="qt" x="32" y="88" fill="#e6edf3" font-size="16">correct it.</text>
+  <text class="qt" x="32" y="62" fill="#e6edf3" font-size="16">Today is plenty; right now is enough. Tomorrow will come in good time.</text>
+  <text class="qt" x="32" y="88" fill="#e6edf3" font-size="16">Until it does, live the depth of now.</text>
   </g>
 
   <!-- divider line + attribution -->
@@ -83,7 +83,7 @@
           stroke="url(#aline)" stroke-width="1.5"/>
     <text class="sans" x="140" y="134"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;John Lennon
+      &#x2014;&#x2002;Ralph Marston
     </text>
   </g>
 
