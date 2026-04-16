@@ -73,7 +73,7 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="32" y="62" fill="#e6edf3" font-size="16">Truth is such a rare thing, it is delighted to tell it.</text>
+  <text class="qt" x="32" y="62" fill="#e6edf3" font-size="16">Respect was invented to cover the empty place where love should be.</text>
   </g>
 
   <!-- divider line + attribution -->
@@ -82,7 +82,7 @@
           stroke="url(#aline)" stroke-width="1.5"/>
     <text class="sans" x="140" y="108"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;Emily Dickinson
+      &#x2014;&#x2002;Leo Tolstoy
     </text>
   </g>
 
