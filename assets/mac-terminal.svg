@@ -4,7 +4,6 @@
     <style>
       .m { font-family: "JetBrains Mono","Courier New",monospace; }
 
-      /* fade-in helper — override delay per class */
       @keyframes fi { from{opacity:0} to{opacity:1} }
       @keyframes bl { 0%,100%{opacity:1} 50%{opacity:0} }
 
@@ -16,63 +15,52 @@
       .r5 { opacity:0; animation: fi .01s  6.0s both; }
       .r6 { opacity:0; animation: fi .01s  6.4s both; }
 
-      /* typing cursor */
       .cur { animation: bl 1s step-end 6.4s infinite; }
     </style>
   </defs>
 
-  <!-- ── window shell ── -->
   <rect x="0" y="0" width="820" height="290" rx="11" ry="11"
         fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
 
-  <!-- title bar -->
   <rect x="0" y="0" width="820" height="38" rx="11" ry="11" fill="#161b22"/>
   <rect x="0" y="26" width="820" height="12"              fill="#161b22"/>
 
-  <!-- traffic lights -->
   <circle cx="22" cy="19" r="7" fill="#ff5f56"/>
   <circle cx="43" cy="19" r="7" fill="#ffbd2e"/>
   <circle cx="64" cy="19" r="7" fill="#27c93f"/>
 
-  <!-- title -->
   <text class="m" x="410" y="25" text-anchor="middle"
         fill="#6e7681" font-size="12.5">
-    bash &#x2014; nikhil@iiit-sonepat: ~/portfolio
+    bash -- nikhil@iiit-sonepat: ~/portfolio
   </text>
 
-  <!-- ── Row 0: first prompt ── -->
   <g class="r0">
     <text class="m" x="24"  y="76" fill="#00F0FF" font-size="14" font-weight="700">nikhil@iiit-sonepat</text>
     <text class="m" x="199" y="76" fill="#c9d1d9" font-size="14">:~/portfolio$</text>
   </g>
 
-  <!-- ── Row 1: command appears (simulated typing done) ── -->
   <g class="r1">
     <text class="m" x="310" y="76" fill="#e6edf3" font-size="14"> cat name.txt</text>
   </g>
 
-  <!-- ── Row 2: output — NAME in large cyan ── -->
   <g class="r2">
     <text class="m" x="24" y="128"
           fill="#00F0FF" font-size="38" font-weight="700"
           letter-spacing="2">Nikhil Nagar</text>
   </g>
 
-  <!-- ── Row 3: subtitle under name ── -->
   <g class="r3">
     <text class="m" x="28" y="158" fill="#70A4FF" font-size="14">
       B.Tech CSE &#x2022; IIIT Sonepat &#x2022; AI/ML &amp; Full Stack Dev
     </text>
   </g>
 
-  <!-- ── Row 4: second prompt ── -->
   <g class="r4">
     <text class="m" x="24"  y="196" fill="#00F0FF" font-size="14" font-weight="700">nikhil@iiit-sonepat</text>
     <text class="m" x="199" y="196" fill="#c9d1d9" font-size="14">:~/portfolio$</text>
     <text class="m" x="310" y="196" fill="#e6edf3" font-size="14"> exit 0</text>
   </g>
 
-  <!-- ── Row 5: status bar ── -->
   <g class="r5">
     <text class="m" x="24" y="237" fill="#6e7681" font-size="11">
       &#x25CF; main &#x2713; up to date
@@ -82,7 +70,6 @@
     </text>
   </g>
 
-  <!-- ── Row 6: final prompt + blinking cursor ── -->
   <g class="r6">
     <text class="m" x="24"  y="265" fill="#00F0FF" font-size="14" font-weight="700">nikhil@iiit-sonepat</text>
     <text class="m" x="199" y="265" fill="#c9d1d9" font-size="14">:~/portfolio$</text>

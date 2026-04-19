@@ -96,17 +96,24 @@
 
 ---
 
-## 🐍 Name Snake
+<br/>
 
+## 🐍 Name Pac-Man
 <div align="center">
-  <img src="./assets/name-snake.svg" width="100%" alt="NIKHIL Pac-Man animation" />
+  <img src="./assets/pacman-name.svg" width="100%" alt="Pac-Man eating name animation" />
 </div>
+
+<br/>
 
 ---
 
+<br/>
+
 <div align="center">
-  <img src="./assets/mac-terminal.svg" width="100%" alt="Mac Terminal" />
+  <img src="./assets/mac-terminal.svg" width="100%" alt="MacBook-style Terminal" />
 </div>
+
+<br/>
 
 ---
 

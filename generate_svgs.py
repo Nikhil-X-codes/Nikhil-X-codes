@@ -1,7 +1,7 @@
 """
 Generate animated SVG assets for GitHub README:
-  - assets/mac-terminal.svg  → Macbook-style terminal showing "Nikhil Nagar"
-  - assets/tech-stack.svg    → Categorised tech icons with float animation
+  - assets/mac-terminal.svg  -> Macbook-style terminal showing "Nikhil Nagar"
+  - assets/tech-stack.svg    -> Categorised tech icons with float animation
 Run:  python generate_svgs.py
 """
 
@@ -30,10 +30,10 @@ def fetch_b64(url: str, _depth: int = 0) -> str:
     except urllib.error.HTTPError as e:
         if e.code in (301, 302):
             return fetch_b64(e.headers.get("Location", ""), _depth + 1)
-        print(f"  HTTP {e.code} — {url}")
+        print(f"  HTTP {e.code} - {url}")
         return ""
     except Exception as ex:
-        print(f"  Error — {url}: {ex}")
+        print(f"  Error - {url}: {ex}")
         return ""
 
 
@@ -47,8 +47,6 @@ def w(path: str, content: str) -> None:
 def generate_terminal() -> None:
     """
     Terminal window that types a command then reveals 'Nikhil Nagar'.
-    Uses only opacity/visibility animations — works in all SVG renderers
-    including GitHub's image proxy.
     """
     svg = """\
 <svg xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +55,6 @@ def generate_terminal() -> None:
     <style>
       .m { font-family: "JetBrains Mono","Courier New",monospace; }
 
-      /* fade-in helper — override delay per class */
       @keyframes fi { from{opacity:0} to{opacity:1} }
       @keyframes bl { 0%,100%{opacity:1} 50%{opacity:0} }
 
@@ -69,63 +66,52 @@ def generate_terminal() -> None:
       .r5 { opacity:0; animation: fi .01s  6.0s both; }
       .r6 { opacity:0; animation: fi .01s  6.4s both; }
 
-      /* typing cursor */
       .cur { animation: bl 1s step-end 6.4s infinite; }
     </style>
   </defs>
 
-  <!-- ── window shell ── -->
   <rect x="0" y="0" width="820" height="290" rx="11" ry="11"
         fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
 
-  <!-- title bar -->
   <rect x="0" y="0" width="820" height="38" rx="11" ry="11" fill="#161b22"/>
   <rect x="0" y="26" width="820" height="12"              fill="#161b22"/>
 
-  <!-- traffic lights -->
   <circle cx="22" cy="19" r="7" fill="#ff5f56"/>
   <circle cx="43" cy="19" r="7" fill="#ffbd2e"/>
   <circle cx="64" cy="19" r="7" fill="#27c93f"/>
 
-  <!-- title -->
   <text class="m" x="410" y="25" text-anchor="middle"
         fill="#6e7681" font-size="12.5">
-    bash &#x2014; nikhil@iiit-sonepat: ~/portfolio
+    bash -- nikhil@iiit-sonepat: ~/portfolio
   </text>
 
-  <!-- ── Row 0: first prompt ── -->
   <g class="r0">
     <text class="m" x="24"  y="76" fill="#00F0FF" font-size="14" font-weight="700">nikhil@iiit-sonepat</text>
     <text class="m" x="199" y="76" fill="#c9d1d9" font-size="14">:~/portfolio$</text>
   </g>
 
-  <!-- ── Row 1: command appears (simulated typing done) ── -->
   <g class="r1">
     <text class="m" x="310" y="76" fill="#e6edf3" font-size="14"> cat name.txt</text>
   </g>
 
-  <!-- ── Row 2: output — NAME in large cyan ── -->
   <g class="r2">
     <text class="m" x="24" y="128"
           fill="#00F0FF" font-size="38" font-weight="700"
           letter-spacing="2">Nikhil Nagar</text>
   </g>
 
-  <!-- ── Row 3: subtitle under name ── -->
   <g class="r3">
     <text class="m" x="28" y="158" fill="#70A4FF" font-size="14">
       B.Tech CSE &#x2022; IIIT Sonepat &#x2022; AI/ML &amp; Full Stack Dev
     </text>
   </g>
 
-  <!-- ── Row 4: second prompt ── -->
   <g class="r4">
     <text class="m" x="24"  y="196" fill="#00F0FF" font-size="14" font-weight="700">nikhil@iiit-sonepat</text>
     <text class="m" x="199" y="196" fill="#c9d1d9" font-size="14">:~/portfolio$</text>
     <text class="m" x="310" y="196" fill="#e6edf3" font-size="14"> exit 0</text>
   </g>
 
-  <!-- ── Row 5: status bar ── -->
   <g class="r5">
     <text class="m" x="24" y="237" fill="#6e7681" font-size="11">
       &#x25CF; main &#x2713; up to date
@@ -135,7 +121,6 @@ def generate_terminal() -> None:
     </text>
   </g>
 
-  <!-- ── Row 6: final prompt + blinking cursor ── -->
   <g class="r6">
     <text class="m" x="24"  y="265" fill="#00F0FF" font-size="14" font-weight="700">nikhil@iiit-sonepat</text>
     <text class="m" x="199" y="265" fill="#c9d1d9" font-size="14">:~/portfolio$</text>
@@ -143,10 +128,9 @@ def generate_terminal() -> None:
   </g>
 
 </svg>"""
-
     path = os.path.join(ASSETS_DIR, "mac-terminal.svg")
     w(path, svg)
-    print("✓ mac-terminal.svg written")
+    print("[ok] mac-terminal.svg written")
 
 
 # ─── 2. tech-stack.svg ──────────────────────────────────────────────────────
@@ -205,11 +189,11 @@ CATEGORIES = [
     },
 ]
 
-ICON_SZ  = 50
-ROW_H    = 180
-HDR_H    = 58
+ICON_SZ  = 52
+ROW_H    = 210
+HDR_H    = 100
 W        = 820
-PX       = 30
+PX       = 32
 
 
 def generate_tech_stack() -> None:
@@ -232,7 +216,7 @@ def generate_tech_stack() -> None:
             print(f"    [{status}] {lbl}")
 
     # ── build SVG ───────────────────────────────────────────────────────────
-    total_h = HDR_H + len(CATEGORIES) * ROW_H + 20
+    total_h = HDR_H + len(CATEGORIES) * ROW_H + 10
     p: list[str] = []
 
     p.append(
@@ -244,15 +228,15 @@ def generate_tech_stack() -> None:
     row_css  = []
     icon_css = []
     for ci, cat in enumerate(CATEGORIES):
-        d = 0.1 + ci * 0.18
-        row_css.append(f".cat-{ci}{{opacity:0;animation:fs .55s ease {d:.2f}s both}}")
+        d = 0.1 + ci * 0.15
+        row_css.append(f".cat-{ci}{{opacity:0;animation:sp-i .65s cubic-bezier(0.34, 1.56, 0.64, 1) {d:.2f}s both}}")
         for ii in range(len(cat["items"])):
-            fd  = 0.2 + ci * 0.18 + ii * 0.07
-            fa  = 3.2 + ii * 0.5
-            fad = ci * 250 + ii * 550
+            fd  = 0.3 + ci * 0.15 + ii * 0.08
+            fa  = 4.0 + (ii % 3) * 0.7
+            fad = ci * 400 + ii * 600
             icon_css.append(
                 f".ic-{ci}-{ii}{{opacity:0;"
-                f"animation:fs .45s ease {fd:.2f}s both,"
+                f"animation:sp-i .55s cubic-bezier(0.34, 1.56, 0.64, 1) {fd:.2f}s both,"
                 f"fl {fa:.1f}s ease-in-out {fad}ms infinite}}"
             )
 
@@ -262,29 +246,54 @@ def generate_tech_stack() -> None:
       <stop offset="0%"   stop-color="#00F0FF" stop-opacity=".95"/>
       <stop offset="100%" stop-color="#7B61FF" stop-opacity=".95"/>
     </linearGradient>
+
+    <!-- title shimmer gradient -->
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
     <style>
-      .ct{{font-family:system-ui,sans-serif;font-size:16px;font-weight:700}}
-      .cl{{font-family:system-ui,sans-serif;font-size:12px;font-weight:600;fill:#c9d1d9}}
-      .cd{{font-family:system-ui,sans-serif;font-size:11px;fill:#8b949e}}
-      @keyframes fl{{0%,100%{{transform:translateY(0)}}50%{{transform:translateY(-5px)}}}}
-      @keyframes fs{{from{{opacity:0;transform:translateY(10px)}}to{{opacity:1;transform:translateY(0)}}}}
+      .ct{{font-family:system-ui,sans-serif;font-size:19px;font-weight:800;letter-spacing:0.3px}}
+      .cl{{font-family:system-ui,sans-serif;font-size:13px;font-weight:700;fill:#e6edf3}}
+      .cd{{font-family:system-ui,sans-serif;font-size:11.5px;fill:#8b949e}}
+      
+      @keyframes fl{{0%,100%{{transform:translateY(0) rotate(0deg)}}50%{{transform:translateY(-8px) rotate(0.6deg)}}}}
+      @keyframes sp-i{{from{{opacity:0;transform:translateY(25px) scale(0.95)}}to{{opacity:1;transform:translateY(0) scale(1)}}}}
+      @keyframes sh-m{{0%{{transform:translateX(-100%)}}100%{{transform:translateX(100%)}}}}
+      
+      .st{{animation:sh-m 4s ease-in-out infinite}}
+      
       {" ".join(row_css)}
       {" ".join(icon_css)}
     </style>
+
+    <clipPath id="tc">
+      <text x="{W//2}" y="50" text-anchor="middle" font-family="system-ui,sans-serif" font-size="30" font-weight="950">Tech Arsenal</text>
+    </clipPath>
   </defs>""")
 
     p.append(f'  <rect width="{W}" height="{total_h}" fill="#0d1117"/>')
 
     # header
     mid = W // 2
+    p.append(f'  <g>')
     p.append(
-        f'  <text x="{mid}" y="36" text-anchor="middle"'
-        f' font-family="system-ui,sans-serif" font-size="22" font-weight="800"'
+        f'    <text x="{mid}" y="50" text-anchor="middle"'
+        f' font-family="system-ui,sans-serif" font-size="30" font-weight="950"'
         f' fill="url(#hg)">&#x1F6E0;&#xFE0F; Tech Arsenal</text>'
     )
+    # shimmer on title
     p.append(
-        f'  <line x1="{PX}" y1="{HDR_H-6}" x2="{W-PX}" y2="{HDR_H-6}"'
-        f' stroke="#21262d" stroke-width="1"/>'
+        f'    <rect x="{mid-180}" y="10" width="360" height="60" fill="url(#sh)"'
+        f' clip-path="url(#tc)" class="st"/>'
+    )
+    p.append(f'  </g>')
+
+    p.append(
+        f'  <line x1="{PX}" y1="{HDR_H-15}" x2="{W-PX}" y2="{HDR_H-15}"'
+        f' stroke="#30363d" stroke-width="1.5" opacity="0.7"/>'
     )
 
     # categories
@@ -296,53 +305,52 @@ def generate_tech_stack() -> None:
 
         p.append(f'  <g class="cat-{ci}">')
         p.append(
-            f'    <text x="{PX}" y="{y + 22}" class="ct" fill="{color}">'
+            f'    <text x="{PX}" y="{y + 36}" class="ct" fill="{color}">'
             f'{cat["title"]}</text>'
         )
 
         for ii, item in enumerate(cat["items"]):
             ix = PX + ii * col_w + (col_w - ICON_SZ) // 2
-            iy = y + 34
+            iy = y + 60 
             cx = ix + ICON_SZ // 2
             b64 = cache.get((ci, ii), "")
 
             p.append(f'    <g class="ic-{ci}-{ii}">')
             if b64:
                 p.append(
-                    f'      <rect x="{ix-7}" y="{iy-7}"'
-                    f' width="{ICON_SZ+14}" height="{ICON_SZ+14}"'
-                    f' rx="13" ry="13" fill="#161b22" stroke="#21262d" stroke-width="1"/>'
+                    f'      <rect x="{ix-10}" y="{iy-10}"'
+                    f' width="{ICON_SZ+20}" height="{ICON_SZ+20}"'
+                    f' rx="16" ry="16" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>'
                 )
                 p.append(
                     f'      <image href="{b64}" x="{ix}" y="{iy}"'
                     f' width="{ICON_SZ}" height="{ICON_SZ}"/>'
                 )
             p.append(
-                f'      <text x="{cx}" y="{iy+ICON_SZ+20}"'
+                f'      <text x="{cx}" y="{iy+ICON_SZ+28}"'
                 f' text-anchor="middle" class="cl">{escape(item["label"])}</text>'
             )
             p.append(
-                f'      <text x="{cx}" y="{iy+ICON_SZ+34}"'
-                f' text-anchor="middle" class="cd">{item["desc"]}</text>'
+                f'      <text x="{cx}" y="{iy+ICON_SZ+44}"'
+                f' text-anchor="middle" class="cd">{item.get("desc", "")}</text>'
             )
             p.append("    </g>")
 
         p.append("  </g>")
 
         if ci < len(CATEGORIES) - 1:
-            dy = y + ROW_H - 9
+            dy = y + ROW_H - 12
             p.append(
                 f'  <line x1="{PX}" y1="{dy}" x2="{W-PX}" y2="{dy}"'
-                f' stroke="#21262d" stroke-width="1"/>'
+                f' stroke="#30363d" stroke-width="1.2" opacity="0.5"/>'
             )
 
         y += ROW_H
 
     p.append("</svg>")
-
     path = os.path.join(ASSETS_DIR, "tech-stack.svg")
     w(path, "\n".join(p))
-    print("✓ tech-stack.svg written")
+    print("[ok] tech-stack.svg written")
 
 
 # ─── 3. quote-card.svg ──────────────────────────────────────────────────────
@@ -352,19 +360,16 @@ def generate_quote_card() -> None:
 <svg xmlns="http://www.w3.org/2000/svg"
      viewBox="0 0 820 200" width="820" height="200">
   <defs>
-    <!-- background gradient -->
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%"   stop-color="#0d1117"/>
       <stop offset="100%" stop-color="#0a1f3a"/>
     </linearGradient>
 
-    <!-- cyan left-bar gradient -->
     <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%"   stop-color="#00F0FF"/>
       <stop offset="100%" stop-color="#7B61FF"/>
     </linearGradient>
 
-    <!-- shimmer sweep -->
     <linearGradient id="shim" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
       <stop offset="50%"  stop-color="#ffffff" stop-opacity="0.06"/>
@@ -373,7 +378,6 @@ def generate_quote_card() -> None:
         from="-1 0" to="2 0" dur="3s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- glow filter on quote marks -->
     <filter id="qglow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
@@ -396,29 +400,23 @@ def generate_quote_card() -> None:
     </style>
   </defs>
 
-  <!-- card background -->
   <rect width="820" height="200" rx="10" ry="10" fill="url(#bg)"
         stroke="#21262d" stroke-width="1.5"/>
 
-  <!-- shimmer overlay -->
   <rect width="820" height="200" rx="10" ry="10" fill="url(#shim)"/>
 
-  <!-- left accent bar -->
   <rect class="bar" x="0" y="0" width="5" height="200" rx="3" ry="3"
         fill="url(#bar)"/>
 
-  <!-- large opening quote mark -->
   <text class="q1 sans" x="32" y="75"
         fill="#00F0FF" font-size="72" font-weight="900"
         opacity="0.18" filter="url(#qglow)">"</text>
 
-  <!-- quote line 1 -->
   <text class="qt mono" x="32" y="92"
         fill="#e6edf3" font-size="16" font-weight="500">
     "A mistake is only an error, it becomes a mistake when you fail to correct it."
   </text>
 
-  <!-- quote line 2 (attribution) -->
   <g class="attr">
     <line x1="32" y1="118" x2="120" y2="118"
           stroke="url(#bar)" stroke-width="1.5"/>
@@ -432,12 +430,10 @@ def generate_quote_card() -> None:
     </text>
   </g>
 
-  <!-- closing quote mark -->
   <text class="q2 sans" x="765" y="155"
         fill="#7B61FF" font-size="72" font-weight="900"
         opacity="0.15" filter="url(#qglow)">"</text>
 
-  <!-- bottom tag -->
   <g class="ql2">
     <rect x="32" y="148" width="130" height="24" rx="4" ry="4"
           fill="#161b22" stroke="#30363d" stroke-width="1"/>
@@ -450,7 +446,7 @@ def generate_quote_card() -> None:
 """
     path = os.path.join(ASSETS_DIR, "quote-card.svg")
     w(path, svg)
-    print("✓ quote-card.svg written")
+    print("[ok] quote-card.svg written")
 
 
 # ─── entry point ─────────────────────────────────────────────────────────────
@@ -465,4 +461,4 @@ if __name__ == "__main__":
     print("\nGenerating tech-stack.svg …")
     generate_tech_stack()
 
-    print("\n✅ Done — all SVGs are in assets/")
+    print("\n[DONE] all SVGs are in assets/")

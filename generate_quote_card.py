@@ -16,7 +16,9 @@ os.makedirs(ASSETS_DIR, exist_ok=True)
 FALLBACK_QUOTE  = "A mistake is only an error, it becomes a mistake when you fail to correct it."
 FALLBACK_AUTHOR = "John Lennon"
 
-W = 820   # canvas width
+W    = 820   # canvas width
+PAD  = 48    # left/right content inset (clears the 5px accent bar + breathing room)
+INDENT = PAD  # alias for readability
 
 
 # ── helpers ──────────────────────────────────────────────────────────────────
@@ -40,7 +42,8 @@ def fetch_quote() -> tuple[str, str]:
         return FALLBACK_QUOTE, FALLBACK_AUTHOR
 
 
-def wrap(text: str, width: int = 72) -> list[str]:
+def wrap(text: str, width: int = 68) -> list[str]:
+    """Wrap text to fit inside W - 2*PAD at ~13px/char for font-size 16."""
     return textwrap.wrap(text, width=width) or [text]
 
 
@@ -49,22 +52,24 @@ def wrap(text: str, width: int = 72) -> list[str]:
 def generate(quote: str, author: str) -> None:
     lines = wrap(quote)
 
-    LINE_H   = 26
-    PAD_TOP  = 56    # space before first quote line (for big " mark)
-    PAD_BOT  = 88    # space after last line (attribution + tag)
+    LINE_H        = 28
+    PAD_TOP       = 72    # room for opening " mark
+    FOOTER_H      = 36    # height of the bottom footer block
+    PAD_BOT       = FOOTER_H + 50   # attribution + footer block + breathing room
     H = PAD_TOP + len(lines) * LINE_H + PAD_BOT
 
     # Y positions
-    quote_mark_y = PAD_TOP - 10
-    first_line_y = PAD_TOP + 6
-    attr_y       = first_line_y + len(lines) * LINE_H + 22
-    divline_y    = attr_y - 8
-    tag_rect_y   = attr_y + 24
-    tag_text_y   = attr_y + 39
+    quote_mark_y  = PAD_TOP - 6
+    first_line_y  = PAD_TOP + 10
+    attr_y        = first_line_y + len(lines) * LINE_H + 30
+    divline_y     = attr_y - 12
+    close_mark_y  = H - FOOTER_H - 14    # closing " sits just above footer
+    footer_y      = H - FOOTER_H         # footer block top edge
+    footer_mid_y  = footer_y + FOOTER_H // 2   # vertical centre of footer
 
-    # Build quote text lines
+    # Build quote text lines (x = INDENT so they clear the accent bar)
     text_lines = "\n".join(
-        f'  <text class="qt" x="32" y="{first_line_y + i * LINE_H}"'
+        f'  <text class="qt" x="{INDENT}" y="{first_line_y + i * LINE_H}"'
         f' fill="#e6edf3" font-size="16">{xe(l)}</text>'
         for i, l in enumerate(lines)
     )
@@ -141,10 +146,10 @@ def generate(quote: str, author: str) -> None:
   <rect class="bar" x="0" y="0" width="5" height="{H}"
         rx="2.5" ry="2.5" fill="url(#bar)"/>
 
-  <!-- opening large quote mark -->
-  <text class="r0 sans" x="30" y="{quote_mark_y}"
+  <!-- opening large quote mark (nudged right of accent bar, down so it doesn't clip top) -->
+  <text class="r0 sans" x="{INDENT - 4}" y="{quote_mark_y}"
         fill="#00F0FF" font-size="68" font-weight="900"
-        opacity="0.16" filter="url(#glow)">"</text>
+        opacity="0.18" filter="url(#glow)">"</text>
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
@@ -153,36 +158,49 @@ def generate(quote: str, author: str) -> None:
 
   <!-- divider line + attribution -->
   <g class="r2">
-    <line x1="32" y1="{divline_y}" x2="130" y2="{divline_y}"
+    <line x1="{INDENT}" y1="{divline_y}" x2="{INDENT + 90}" y2="{divline_y}"
           stroke="url(#aline)" stroke-width="1.5"/>
-    <text class="sans" x="140" y="{attr_y - 2}"
+    <text class="sans" x="{INDENT + 100}" y="{attr_y - 2}"
           fill="#70A4FF" font-size="14" font-weight="600">
       &#x2014;&#x2002;{xe(author)}
     </text>
   </g>
 
-  <!-- closing quote mark -->
-  <text class="r3 sans" x="{W - 58}" y="{H - 18}"
+  <!-- closing quote mark sits just above the footer block -->
+  <text class="r3 sans" x="{W - INDENT - 28}" y="{close_mark_y}"
         fill="#7B61FF" font-size="68" font-weight="900"
-        opacity="0.12" filter="url(#glow)">"</text>
+        text-anchor="end" opacity="0.14" filter="url(#glow)">"</text>
 
-  <!-- tag pill -->
+  <!-- footer block: full-width strip with separator line -->
   <g class="r4">
-    <rect x="32" y="{tag_rect_y}" width="148" height="24"
-          rx="5" ry="5" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <circle cx="48" cy="{tag_rect_y + 12}" r="4"
-            fill="#00F0FF" opacity="0.8"/>
-    <text class="mono" x="58" y="{tag_text_y}"
-          fill="#00F0FF" font-size="11.5" font-weight="700">
-      Dev Quote of the Day
-    </text>
+    <!-- horizontal separator line spanning full card width -->
+    <line x1="0" y1="{footer_y}" x2="{W}" y2="{footer_y}"
+          stroke="#21262d" stroke-width="1"/>
+    <!-- footer background fill (clipped to card so corners are rounded) -->
+    <g clip-path="url(#card-clip)">
+      <rect x="0" y="{footer_y}" width="{W}" height="{FOOTER_H}"
+            fill="#0d1117" opacity="0.85"/>
+      <!-- gradient accent stripe on left edge of footer -->
+      <rect x="0" y="{footer_y}" width="5" height="{FOOTER_H}"
+            fill="url(#bar)"/>
+    </g>
+    <!-- pulsing dot -->
+    <circle cx="{INDENT + 12}" cy="{footer_mid_y}" r="4"
+            fill="#00F0FF" opacity="0.9">
+      <animate attributeName="r" values="3.5;5;3.5" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- label text -->
+    <text class="mono" x="{INDENT + 24}" y="{footer_mid_y + 5}"
+          fill="#00F0FF" font-size="12" font-weight="700"
+          letter-spacing="0.5">Dev Quote of the Day</text>
   </g>
 </svg>"""
 
     out = os.path.join(ASSETS_DIR, "quote-card.svg")
     with open(out, "w", encoding="utf-8") as f:
         f.write(svg)
-    print(f"✓ quote-card.svg  ({len(lines)} line(s), author: {author})")
+    print(f"[ok] quote-card.svg ({len(lines)} line(s), H={H}px, author: {author})")
 
 
 # ── entry point ───────────────────────────────────────────────────────────────
