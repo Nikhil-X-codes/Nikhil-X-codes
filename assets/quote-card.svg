@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 820 214" width="820" height="214">
+     viewBox="0 0 820 186" width="820" height="186">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%"   stop-color="#0d1117"/>
@@ -49,21 +49,21 @@
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="card-clip">
-      <rect width="820" height="214" rx="10" ry="10"/>
+      <rect width="820" height="186" rx="10" ry="10"/>
     </clipPath>
   </defs>
 
   <!-- background -->
-  <rect width="820" height="214" rx="10" ry="10"
+  <rect width="820" height="186" rx="10" ry="10"
         fill="url(#bg)" stroke="#21262d" stroke-width="1.5"/>
 
   <!-- shimmer (clipped to card) -->
   <g clip-path="url(#card-clip)">
-    <rect class="shim" x="0" y="0" width="60%" height="214" opacity="1"/>
+    <rect class="shim" x="0" y="0" width="60%" height="186" opacity="1"/>
   </g>
 
   <!-- left accent bar (pulsing) -->
-  <rect class="bar" x="0" y="0" width="5" height="214"
+  <rect class="bar" x="0" y="0" width="5" height="186"
         rx="2.5" ry="2.5" fill="url(#bar)"/>
 
   <!-- opening large quote mark (nudged right of accent bar, down so it doesn't clip top) -->
@@ -73,46 +73,45 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">Your heart is the size of an ocean. Go find yourself in its hidden</text>
-  <text class="qt" x="48" y="110" fill="#e6edf3" font-size="16">depths.</text>
+  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">When you judge another, you do not define them, you define yourself</text>
   </g>
 
   <!-- divider line + attribution -->
   <g class="r2">
-    <line x1="48" y1="156" x2="138" y2="156"
+    <line x1="48" y1="128" x2="138" y2="128"
           stroke="url(#aline)" stroke-width="1.5"/>
-    <text class="sans" x="148" y="166"
+    <text class="sans" x="148" y="138"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;Rumi
+      &#x2014;&#x2002;Wayne Dyer
     </text>
   </g>
 
   <!-- closing quote mark sits just above the footer block -->
-  <text class="r3 sans" x="744" y="164"
+  <text class="r3 sans" x="744" y="136"
         fill="#7B61FF" font-size="68" font-weight="900"
         text-anchor="end" opacity="0.14" filter="url(#glow)">"</text>
 
   <!-- footer block: full-width strip with separator line -->
   <g class="r4">
     <!-- horizontal separator line spanning full card width -->
-    <line x1="0" y1="178" x2="820" y2="178"
+    <line x1="0" y1="150" x2="820" y2="150"
           stroke="#21262d" stroke-width="1"/>
     <!-- footer background fill (clipped to card so corners are rounded) -->
     <g clip-path="url(#card-clip)">
-      <rect x="0" y="178" width="820" height="36"
+      <rect x="0" y="150" width="820" height="36"
             fill="#0d1117" opacity="0.85"/>
       <!-- gradient accent stripe on left edge of footer -->
-      <rect x="0" y="178" width="5" height="36"
+      <rect x="0" y="150" width="5" height="36"
             fill="url(#bar)"/>
     </g>
     <!-- pulsing dot -->
-    <circle cx="60" cy="196" r="4"
+    <circle cx="60" cy="168" r="4"
             fill="#00F0FF" opacity="0.9">
       <animate attributeName="r" values="3.5;5;3.5" dur="2s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2s" repeatCount="indefinite"/>
     </circle>
     <!-- label text -->
-    <text class="mono" x="72" y="201"
+    <text class="mono" x="72" y="173"
           fill="#00F0FF" font-size="12" font-weight="700"
           letter-spacing="0.5">Dev Quote of the Day</text>
   </g>
