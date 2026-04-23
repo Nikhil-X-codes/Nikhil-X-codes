@@ -73,7 +73,7 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">When you judge another, you do not define them, you define yourself</text>
+  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">The only reason to be alive is to enjoy it.</text>
   </g>
 
   <!-- divider line + attribution -->
@@ -82,7 +82,7 @@
           stroke="url(#aline)" stroke-width="1.5"/>
     <text class="sans" x="148" y="138"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;Wayne Dyer
+      &#x2014;&#x2002;Rita Mae Brown
     </text>
   </g>
 
