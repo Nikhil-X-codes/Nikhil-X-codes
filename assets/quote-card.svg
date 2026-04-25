@@ -73,7 +73,7 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">You can't get to a place that you don't believe exists.</text>
+  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">Even if you persuade me, you won't persuade me.</text>
   </g>
 
   <!-- divider line + attribution -->
@@ -82,7 +82,7 @@
           stroke="url(#aline)" stroke-width="1.5"/>
     <text class="sans" x="148" y="138"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;Unknown
+      &#x2014;&#x2002;Aristophanes
     </text>
   </g>
 
