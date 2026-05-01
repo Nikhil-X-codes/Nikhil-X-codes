@@ -73,7 +73,7 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">Those who cannot change their minds cannot change anything.</text>
+  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">Duty makes us do things well, but love makes us do them beautifully.</text>
   </g>
 
   <!-- divider line + attribution -->
@@ -82,7 +82,7 @@
           stroke="url(#aline)" stroke-width="1.5"/>
     <text class="sans" x="148" y="138"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;George Bernard Shaw
+      &#x2014;&#x2002;Zig Ziglar
     </text>
   </g>
 
