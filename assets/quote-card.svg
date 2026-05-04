@@ -73,8 +73,8 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">Your best life will not be found in comfort. It will be found in</text>
-  <text class="qt" x="48" y="110" fill="#e6edf3" font-size="16">fighting for what you believe in.</text>
+  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">Strategy without tactics is the slowest route to victory. Tactics</text>
+  <text class="qt" x="48" y="110" fill="#e6edf3" font-size="16">without strategy is the noise before defeat.</text>
   </g>
 
   <!-- divider line + attribution -->
@@ -83,7 +83,7 @@
           stroke="url(#aline)" stroke-width="1.5"/>
     <text class="sans" x="148" y="166"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;Maxime Lagace
+      &#x2014;&#x2002;Sun Tzu
     </text>
   </g>
 
