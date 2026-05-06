@@ -73,7 +73,7 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">Throw your heart over the bar and your body will follow.</text>
+  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">If what you're doing is not your passion, you have nothing to lose.</text>
   </g>
 
   <!-- divider line + attribution -->
@@ -82,7 +82,7 @@
           stroke="url(#aline)" stroke-width="1.5"/>
     <text class="sans" x="148" y="138"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;Norman Vincent Peale
+      &#x2014;&#x2002;Celestine Chua
     </text>
   </g>
 
