@@ -73,8 +73,8 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">It's the possibility of having a dream come true that makes life</text>
-  <text class="qt" x="48" y="110" fill="#e6edf3" font-size="16">interesting.</text>
+  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">20 percent of your activities will account for 80 percent of your</text>
+  <text class="qt" x="48" y="110" fill="#e6edf3" font-size="16">results.</text>
   </g>
 
   <!-- divider line + attribution -->
@@ -83,7 +83,7 @@
           stroke="url(#aline)" stroke-width="1.5"/>
     <text class="sans" x="148" y="166"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;Paulo Coelho
+      &#x2014;&#x2002;Brian Tracy
     </text>
   </g>
 
