@@ -73,7 +73,7 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">We are willing to believe anything other than the truth.</text>
+  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">Forever is composed of now's.</text>
   </g>
 
   <!-- divider line + attribution -->
@@ -82,7 +82,7 @@
           stroke="url(#aline)" stroke-width="1.5"/>
     <text class="sans" x="148" y="138"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;Carlos Ruiz Zafon
+      &#x2014;&#x2002;Emily Dickinson
     </text>
   </g>
 
