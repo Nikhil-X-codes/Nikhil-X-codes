@@ -73,8 +73,8 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">it's important to make sure that we're talking with each other in a</text>
-  <text class="qt" x="48" y="110" fill="#e6edf3" font-size="16">way that heals, not in a way that wounds.</text>
+  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">Dreams have only one owner at a time. That's why dreamers are</text>
+  <text class="qt" x="48" y="110" fill="#e6edf3" font-size="16">lonely.</text>
   </g>
 
   <!-- divider line + attribution -->
@@ -83,7 +83,7 @@
           stroke="url(#aline)" stroke-width="1.5"/>
     <text class="sans" x="148" y="166"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;Barack Obama
+      &#x2014;&#x2002;William Faulkner
     </text>
   </g>
 
