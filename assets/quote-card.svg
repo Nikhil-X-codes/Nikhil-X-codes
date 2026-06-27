@@ -73,8 +73,8 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">It is dangerous to be right in matters on which the established</text>
-  <text class="qt" x="48" y="110" fill="#e6edf3" font-size="16">authorities are wrong.</text>
+  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">Do Something. If it works, do more of it. If it doesn't, do</text>
+  <text class="qt" x="48" y="110" fill="#e6edf3" font-size="16">something else.</text>
   </g>
 
   <!-- divider line + attribution -->
@@ -83,7 +83,7 @@
           stroke="url(#aline)" stroke-width="1.5"/>
     <text class="sans" x="148" y="166"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;Voltaire
+      &#x2014;&#x2002;Franklin D. Roosevelt
     </text>
   </g>
 
