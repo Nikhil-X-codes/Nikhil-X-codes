@@ -73,8 +73,8 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">To create more positive results in your life, replace 'if only' with</text>
-  <text class="qt" x="48" y="110" fill="#e6edf3" font-size="16">'next time'.</text>
+  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">People who say it cannot be done should not interrupt those who are</text>
+  <text class="qt" x="48" y="110" fill="#e6edf3" font-size="16">doing it.</text>
   </g>
 
   <!-- divider line + attribution -->
@@ -83,7 +83,7 @@
           stroke="url(#aline)" stroke-width="1.5"/>
     <text class="sans" x="148" y="166"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;Celestine Chua
+      &#x2014;&#x2002;George Bernard Shaw
     </text>
   </g>
 
