@@ -73,8 +73,8 @@
 
   <!-- quote text lines (each fades in) -->
   <g class="r1">
-  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">Change is hard at first, messy in the middle and gorgeous at the</text>
-  <text class="qt" x="48" y="110" fill="#e6edf3" font-size="16">end.</text>
+  <text class="qt" x="48" y="82" fill="#e6edf3" font-size="16">It is amazing what you can accomplish if you do not care who gets</text>
+  <text class="qt" x="48" y="110" fill="#e6edf3" font-size="16">the credit.</text>
   </g>
 
   <!-- divider line + attribution -->
@@ -83,7 +83,7 @@
           stroke="url(#aline)" stroke-width="1.5"/>
     <text class="sans" x="148" y="166"
           fill="#70A4FF" font-size="14" font-weight="600">
-      &#x2014;&#x2002;Robin Sharma
+      &#x2014;&#x2002;Harry S. Truman
     </text>
   </g>
 
