@@ -11,7 +11,7 @@
 <br/>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/nikhil2310">
+  <a href="https://www.linkedin.com/in/nikhil2310/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a66c2"/>
   </a>&nbsp;&nbsp;
   <a href="mailto:nagarn2005@gmail.com">
@@ -51,17 +51,16 @@
 {
   "name": "Nikhil Nagar",
   "college": "IIIT Sonepat",
-  "degree": "B.Tech (CSE)",
+  "degree": "B.Tech (  IT)",
   "focus": ["AI/ML", "Full Stack"],
   "dsa_grind": true,
   "status": "Keep Learning & Building"
 }
 ```
 
-🧠 &nbsp;Deeply passionate about **Machine Learning & Deep Learning**  
+🧠 &nbsp;Deeply passionate about **Artificial intelligence and Devops**  
 💻 &nbsp;Building **AI-powered full-stack applications**  
 📊 &nbsp;Consistently grinding **Data Structures & Algorithms**  
-🌱 &nbsp;Always eager to learn new tech and **ship things fast**  
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:002244,100:0d1117&height=3" width="100%"/>
 
@@ -121,9 +120,6 @@
 
 <div align="center">
 
-<a href="https://leetcode.com/u/nagarn2005">
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="40"/>
-</a>&nbsp;&nbsp;
 <a href="https://www.geeksforgeeks.org/profile/nikhilngrnik007">
   <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" height="40"/>
 </a>&nbsp;&nbsp;
