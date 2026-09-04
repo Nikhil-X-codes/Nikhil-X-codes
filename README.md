@@ -90,7 +90,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nikhil-X-codes&bg_color=0d1117&color=70A4FF&line=00F0FF&point=00F0FF&area_color=002244&area=true&hide_border=true&custom_title=%20Contribution%20Graph" width="98%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nikhil-X-codes&theme=tokyonight" width="98%" />
 </div>
 
 ---
